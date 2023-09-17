@@ -1,0 +1,41 @@
+//11
+#include <stdio.h>
+
+int main()
+{
+int baxadzayn = 0, dzaynavor = 0;
+char sym[28] = "asdeahcjbankcjhbajhcvahgmeo";
+for(int i = 0; i < 28; ++i )
+{
+    switch(sym[i])
+    {
+        case 'a':
+        case 'A':
+        case 'o':
+        case 'O':
+        case 'i':
+        case 'I':
+        case 'u':
+        case 'U':
+        case 'e':
+        case 'E':
+        ++dzaynavor;
+        break;
+        
+        case 0 ... 64: 
+        case 91 ... 96:
+        case 123 ... 127:
+        break;
+        
+        default:
+        ++baxadzayn;
+        
+    }
+
+    
+}
+
+printf("%d %d", dzaynavor, baxadzayn );
+
+    return 0;
+}
