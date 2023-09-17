@@ -1,0 +1,12 @@
+//29
+#include <stdio.h>
+
+int main()
+{
+char b, a;
+scanf(" %c %c", &a, &b);
+if((64 < a < 91 || 96 < a < 123) && (64 < b < 91 || 96 < b < 123)  )
+    if(a - b == 32 || b - a == 32)
+printf("true");
+    return 0;
+}
