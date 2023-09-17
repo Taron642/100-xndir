@@ -1,0 +1,14 @@
+//16
+#include <stdio.h>
+
+int main()
+{
+int hasak;
+scanf("%d", &hasak);
+
+if(hasak >= 150)
+printf("Duq hamapatasxanum eq");
+else
+printf("Neroxutyun, duq cheq hamapatasxanum");
+    return 0;
+}
