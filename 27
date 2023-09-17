@@ -1,0 +1,12 @@
+//27
+#include <stdio.h>
+
+int main()
+{
+short a;
+scanf(" %hd", &a);
+    if(!(a & 16))
+    a += 16;
+printf("%hd", a);
+    return 0;
+}
