@@ -1,0 +1,15 @@
+//25
+#include <stdio.h>
+
+int main()
+{
+int a;
+scanf(" %d", &a);
+if(a % 4 == 0){
+
+printf("nahanj");
+}
+else
+printf("voch nahanj");
+    return 0;
+}
