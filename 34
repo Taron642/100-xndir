@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    int num, a = 0, b = 1, c;
+    printf("Please enter num");
+    scanf("%d", &a);
+    printf("%d %d", a, b);
+    do
+    {
+        c = a + b;
+        printf("%d", c);
+        c = a;
+        a = b;
+        b = c;
+        num -= num - 1;
+     
+    }
+    while(num != 0);
+ 
+   
+
+    return 0;
+}
