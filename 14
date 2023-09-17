@@ -23,6 +23,6 @@ switch(age)
 }
 }
 else
-printf("false")
+printf("false");
     return 0;
 }
