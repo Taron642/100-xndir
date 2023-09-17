@@ -1,0 +1,35 @@
+//15
+#include <stdio.h>
+
+int main()
+{
+int gnahatakan;
+scanf("%d", &gnahatakan);
+
+if(gnahatakan >= 0 && gnahatakan <= 100){
+switch(gnahatakan)
+{
+    case 90 ... 100:
+    printf("A dasaran");
+    break;
+    
+    case 80 ... 89:
+    printf("B dasaran");
+    break;
+    
+    case 70 ... 79:
+    printf("C dasaran");
+    break;
+    
+    case 60 ... 69:
+    printf("D dasaran");
+    break;
+    
+    case 0 ... 59:
+    printf("E dasaran");
+}
+}
+else
+printf("false");
+    return 0;
+}
