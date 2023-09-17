@@ -4,19 +4,18 @@ int main()
 {
     int num, a = 0, b = 1, c;
     printf("Please enter num");
-    scanf("%d", &a);
-    printf("%d %d", a, b);
+    scanf("%d", &num);
+    printf("%d %d ", a, b);
     do
     {
         c = a + b;
-        printf("%d", c);
-        c = a;
+        printf("%d  ", c);
         a = b;
         b = c;
-        num -= num - 1;
+
      
     }
-    while(num != 0);
+    while(--num);
  
    
 
