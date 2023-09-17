@@ -1,0 +1,19 @@
+//10
+#include <stdio.h>
+
+int main()
+{
+char sym;
+scanf("%c", &sym);
+switch (sym)
+{
+case 48 ... 57:
+printf("true");
+break;
+
+default:
+printf("false");
+}
+
+    return 0;
+}
