@@ -1,0 +1,13 @@
+//13
+#include <stdio.h>
+
+int main()
+{
+int Celsius;
+scanf("%d", &Celsius);
+
+printf("%d", (Celsius * 9 / 5) + 32);
+    
+
+    return 0;
+}
