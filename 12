@@ -1,0 +1,21 @@
+//12
+#include <stdio.h>
+
+int main()
+{
+int index;
+char sym[28] = "asdeahcjbankcjhbajhcvahgmeo";
+for(int i = 0; i < 14; ++i )
+{
+   if(sym[i] == sym[28-i])
+    ++index;
+    
+}
+    if(index == 14)
+    printf("true");
+    else 
+    printf("false");
+    
+
+    return 0;
+}
