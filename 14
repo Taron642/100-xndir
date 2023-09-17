@@ -1,0 +1,28 @@
+//14
+#include <stdio.h>
+
+int main()
+{
+int age;
+scanf("%d", &age);
+
+if(age >= 0 && age <= 150){
+switch(age)
+{
+    case 0 ... 17:
+    printf("Duq anchapahas eq");
+    break;
+    
+    case 18 ... 65:
+    printf("Duq chapahas eq");
+    break;
+    
+    case 66 ... 150:
+    printf("Duq tarec qaxaqaci eq");
+    
+}
+}
+else
+printf("false")
+    return 0;
+}
